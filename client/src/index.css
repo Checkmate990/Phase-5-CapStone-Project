@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .navbar {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    position: -webkit-sticky;
+    position: sticky;
+    top: -5px;
+    z-index: 2;
+    height: 100px;
+    min-height: 100px;
+    /* width: calc(100% - 1.5rem); */
+  }
+  
+  ul {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    list-style: none;
+  }
+  
+  .App .navbar .nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .App .navbar .nav-links>a{
+    color: #fff;
+    text-decoration: none;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .logo{
+    font-size: 30px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+    color:orange
+  }
+  
+  /* .cards__row {
+    display: flex;
+    padding: 1rem;
+    width: 25%;
+    flex-wrap: wrap;
+  } */
+  
+  /* .card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+  } */
+  
+  .bets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: '100%';
+    margin: 0 auto;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  }
+  
+  .card-container {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .card__title-front{
+    text-align: center;
+  }
+  
+  
+  /* .bets {
+    width: '40px';
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+  } */
