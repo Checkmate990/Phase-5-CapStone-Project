@@ -1,6 +1,6 @@
 ### Tournament Flask App (Backend)
 
-This is the backend for the Tournament Flask App. It is a Flask app that uses PostgreSQL to store data. It is a RESTful API that uses JSON to communicate with the frontend.
+This is the backend for the Tournament Flask App.  It is a RESTful API that uses JSON to communicate with the frontend.
 
 #### Installation
 
